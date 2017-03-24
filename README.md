@@ -1,30 +1,8 @@
-# Module 9: JavaScript
+# JavaScript
 
-## Overview
 As you know, all visual elements on a webpage are HTML elements, styled using CSS: JavaScript is what will bring those elements to life. JavaScript is a **scripting language** used to process data, create/manipulate HTML elements, and assign events (i.e, click, hover, etc.) to those elements. The vast majority of the code you will write in this course will be JavaScript, and you should feel confident in your functional programming skills in the language.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
-
-- [Resources](#resources)
-- [Getting Started](#getting-started)
-- [Variables](#variables)
-  - [Numbers and Strings](#numbers-and-strings)
-  - [Arrays](#arrays)
-  - [Objects](#objects)
-  - [Functions](#functions)
-  - [Properties and Methods](#properties-and-methods)
-- [Variable Scope](#variable-scope)
-- [Array Manipulation](#array-manipulation)
-- [DOM Manipulation](#dom-manipulation)
-  - [Waiting for Content to Load](#waiting-for-content-to-load)
-- [Events](#events)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
-Here are some helpful resources to help guide your exploration of JavaScript:
+Helpful links:
 
 - [JavaScript Array Methods](http://www.w3schools.com/jsref/jsref_obj_array.asp)
 - [JavaScript DOM Methods](http://www.w3schools.com/js/js_htmldom_methods.asp)
