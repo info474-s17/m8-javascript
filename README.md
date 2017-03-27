@@ -1,30 +1,8 @@
-# Module 9: JavaScript
+# JavaScript
 
-## Overview
 As you know, all visual elements on a webpage are HTML elements, styled using CSS: JavaScript is what will bring those elements to life. JavaScript is a **scripting language** used to process data, create/manipulate HTML elements, and assign events (i.e, click, hover, etc.) to those elements. The vast majority of the code you will write in this course will be JavaScript, and you should feel confident in your functional programming skills in the language.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
-
-- [Resources](#resources)
-- [Getting Started](#getting-started)
-- [Variables](#variables)
-  - [Numbers and Strings](#numbers-and-strings)
-  - [Arrays](#arrays)
-  - [Objects](#objects)
-  - [Functions](#functions)
-  - [Properties and Methods](#properties-and-methods)
-- [Variable Scope](#variable-scope)
-- [Array Manipulation](#array-manipulation)
-- [DOM Manipulation](#dom-manipulation)
-  - [Waiting for Content to Load](#waiting-for-content-to-load)
-- [Events](#events)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
-Here are some helpful resources to help guide your exploration of JavaScript:
+Helpful links:
 
 - [JavaScript Array Methods](http://www.w3schools.com/jsref/jsref_obj_array.asp)
 - [JavaScript DOM Methods](http://www.w3schools.com/js/js_htmldom_methods.asp)
@@ -188,7 +166,7 @@ var greater_than_two = data.filter(function(d){return d>2 });
 // Note: data is unchanged, and filter took a `function` as it's parameter.  
 ```
 
-To practice accessing information via object properties, and leveraging different object methods, see [exercise-1](exercise-1).
+To practice accessing information via object properties, and leveraging different object methods, see [exercise-1](http://github.com/info474-s17/m8-javascript/tree/master/exercise-1).
 
 ## Variable Scope
 When working with JavaScript, it is very important to understand the **scope** of your variables. In JavaScript, `scope` refers to the context of your variable. For example, is it defined everywhere (`global`) or just within a function (`local`). When you create a variable outside of any functions, that variable has `global` scope, and is accessible within any of your code:
@@ -244,7 +222,7 @@ var threeLarger = arr.map(function(num){
 
 ```
 
-Note, this is similar to the `forEach` method, but the `forEach` method **does not** return a value. To practice accessing information via object properties, and leveraging different object methods, see [exercise-2](exercise-2).
+Note, this is similar to the `forEach` method, but the `forEach` method **does not** return a value. To practice accessing information via object properties, and leveraging different object methods, see [exercise-2](http://github.com/info474-s17/m8-javascript/tree/master/exercise-2).
 
 ## DOM Manipulation
 This is all well and good, but what does JavaScript have to do with your webpage? Similarly to how you can select elements using CSS, you can select elements from your DOM using JavaScript. This will enable you to **get**, **add**, **change**, and **remove** elements from your webpage. In [module-10](https://github.com/info343c-a16/m10-jquery), we'll introduce the `jQuery` library that provides a much more succinct syntax for accomplishing the same tasks. Under the hood, libraries such as `jQuery` and `d3` library leverages the same processes, so it's important to understand what's happening (even if you will _rarely_ use the native JavaScript syntax):
@@ -317,4 +295,4 @@ var myFunction = function() {
 };
 document.getElementById("myBtn").onclick = myFunction;
 ```
-Again, this will become more succinct when we start using the jQuery library. To practice assigning different event listeners, see [exercise-3](exercise-3).
+Again, this will become more succinct when we start using the jQuery library. To practice assigning different event listeners, see [exercise-3](http://github.com/info474-s17/m8-javascript/tree/master/exercise-3).
