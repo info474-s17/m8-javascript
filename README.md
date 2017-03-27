@@ -166,7 +166,7 @@ var greater_than_two = data.filter(function(d){return d>2 });
 // Note: data is unchanged, and filter took a `function` as it's parameter.  
 ```
 
-To practice accessing information via object properties, and leveraging different object methods, see [exercise-1](exercise-1).
+To practice accessing information via object properties, and leveraging different object methods, see [exercise-1](http://github.com/info474-s17/m8-javascript/tree/master/exercise-1).
 
 ## Variable Scope
 When working with JavaScript, it is very important to understand the **scope** of your variables. In JavaScript, `scope` refers to the context of your variable. For example, is it defined everywhere (`global`) or just within a function (`local`). When you create a variable outside of any functions, that variable has `global` scope, and is accessible within any of your code:
@@ -222,7 +222,7 @@ var threeLarger = arr.map(function(num){
 
 ```
 
-Note, this is similar to the `forEach` method, but the `forEach` method **does not** return a value. To practice accessing information via object properties, and leveraging different object methods, see [exercise-2](exercise-2).
+Note, this is similar to the `forEach` method, but the `forEach` method **does not** return a value. To practice accessing information via object properties, and leveraging different object methods, see [exercise-2](http://github.com/info474-s17/m8-javascript/tree/master/exercise-2).
 
 ## DOM Manipulation
 This is all well and good, but what does JavaScript have to do with your webpage? Similarly to how you can select elements using CSS, you can select elements from your DOM using JavaScript. This will enable you to **get**, **add**, **change**, and **remove** elements from your webpage. In [module-10](https://github.com/info343c-a16/m10-jquery), we'll introduce the `jQuery` library that provides a much more succinct syntax for accomplishing the same tasks. Under the hood, libraries such as `jQuery` and `d3` library leverages the same processes, so it's important to understand what's happening (even if you will _rarely_ use the native JavaScript syntax):
@@ -295,4 +295,4 @@ var myFunction = function() {
 };
 document.getElementById("myBtn").onclick = myFunction;
 ```
-Again, this will become more succinct when we start using the jQuery library. To practice assigning different event listeners, see [exercise-3](exercise-3).
+Again, this will become more succinct when we start using the jQuery library. To practice assigning different event listeners, see [exercise-3](http://github.com/info474-s17/m8-javascript/tree/master/exercise-3).
